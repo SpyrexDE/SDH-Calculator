@@ -1,13 +1,7 @@
-class Plugin:
-    name = "🖩 Calculator"
-
-    author = "Spyrex"
-
-    main_view_html = """
-    <html>
+<html>
         <head>
             <script src="/static/library.js"></script>
-            <!-- Code by karankumarjs: https://github.com/karankumarjs/Simple-Calculator --!>
+            <!-- Code by karankumarjs: https://github.com/karankumarjs/Simple-Calculator -->
         </head>
         <body>
             <div class="container">
@@ -52,7 +46,7 @@ class Plugin:
             }
 
             body {
-                background-color: #f5f5f5;
+                background-color: #1B2838;
                 min-height: 90vh;
                 display: flex;
                 justify-content: center;
@@ -61,7 +55,6 @@ class Plugin:
             }
 
             .container {
-                background-color: #131313;
                 max-width: 300px;
                 height: auto;
                 display: flex;
@@ -113,7 +106,7 @@ class Plugin:
                 outline: none;
                 border: none;
                 border-radius: 10px;
-                background-color: #131313;
+                background-color: #0000007a;
                 color: white;
                 font-size: x-large;
             }
@@ -128,7 +121,6 @@ class Plugin:
 
             @media only screen and (max-width: 600px) {
                 body {
-                    background-color: #131313;
                     align-items: flex-start;
                 }
             }
@@ -203,8 +195,5 @@ class Plugin:
                 })
             })
             </script>
-        </body>
-    </html>
-    """
-
-    tile_view_html = ""
+    </body>
+</html>
