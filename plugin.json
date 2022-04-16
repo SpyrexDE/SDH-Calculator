@@ -3,5 +3,10 @@
     "author": "Spyrex",
     "main_view_html": "main_view.html",
     "tile_view_html": "",
-    "flags": ["_hot_reload"]
+    "flags": ["_hot_reload"],
+    "publish": {
+        "discord_id": "268097864608120832",
+        "description": "Calculator for Steam Deck",
+        "tags": ["utility"]
+        }
 }
